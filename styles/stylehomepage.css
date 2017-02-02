@@ -1,0 +1,320 @@
+.nav{
+	background-color:#5f9ea0;
+	height:60px;
+	display:block;
+	width:1800px;
+}
+
+#logo{
+	height:50px;
+	width:50px;
+	margin:4px 0px 0px 900px;
+}
+
+body{	
+margin-top:0px;
+
+}
+#sc{
+	font-family: "times new roman",georgia,serif;
+	font-size:40px;
+	font-weight:bold;
+	color:#faebd7;
+	margin:-60px 0px 0px 970px;
+}
+.home{
+	margin-left:80px;
+}
+
+.messages{
+	margin-left:200px;
+}
+
+.friends{
+	margin-left:370px;
+}
+.showfriends{
+	margin-left:570px;
+}
+.logout{
+	margin-left:750px;
+}
+.navitem{
+	color:white;
+	position:absolute;
+	font-size:25px;
+	text-shadow:1px 1px 40px #726E6D;
+	padding:10px;
+}
+
+.activated{
+	margin-top:0px;
+	height:60px;
+	padding:10px;
+	background-color:#7B6FA;
+	color:white;
+	
+}
+
+.navitem:hover{
+	padding:7px;
+	background-color:#7B6FA;
+	color:white;
+}
+
+.yourprofile{
+	background-color:#EBF5F5;
+	border:1px solid #37B6FA;
+	margin-top:30px;
+	margin-left:75px;
+	height:530px;
+	width:250px;
+	position:absolute;
+}
+
+#myimage{
+	margin-left:0px;
+	width:248px;
+	height:200px;
+	position:relative;
+	
+}
+
+.name{
+	font-family:arial,serif;
+	font-size:15px;
+	color:rgb(41,47,51);
+	font-weight:bold;
+	margin: 10px 20px 0px 10px;
+	width:175px;
+	
+}
+
+#statusbar{
+	margin-left:65px;
+	margin-top:20px;
+	line-height:20px;
+	height:50px;
+	width:530px;
+}
+#postbar{
+	margin-left:65px;
+	margin-top:20px;
+	line-height:20px;
+	width:530px;
+}
+
+#statusbutton{
+	margin-left:520px;
+	margin-top:7px;
+	background-color:#5f9ea0;
+	border:#5f9ea0;
+}
+
+#postbutton{
+	margin-left:520px;
+	margin-top:5px;
+	background-color:#5f9ea0;
+	border:#5f9ea0;
+	
+}
+
+.changeimage{
+	position:relative;
+	z-index:10;
+}
+#imagebutton{
+	visibility:hidden;
+}
+#postphotobtn{
+	margin-left:65px;
+}
+
+#uploadphoto{
+	margin-left:65px;
+	
+	}
+
+#uploadvideo{
+	margin-left:20px;
+	
+}
+
+.content{
+	background-color:#EBF5F5;
+	border:1px solid #37B6FA;
+	border-radius:5px;
+	margin-top:30px;
+	margin-left:400px;
+	height:530px;
+	width:680px;
+	position:absolute;
+	overflow:scroll;
+}
+
+
+.eachpost{
+	margin-left:65px;
+	margin-top:30px;
+	font-family:helvetica;
+	font-size:20px;
+	margin-right:40px;
+	background-color:white;
+	border:1px solid #37B6FA;
+	padding:10px;
+}
+.postednow{
+	font-size:15px;
+	margin-top : 10px;
+	margin-bottom:20px;	
+	margin-left:7px;
+	
+	
+}
+.postfriendimage{
+	height:40px;
+	width:40px;
+	
+}
+
+.postcontent{
+	margin-left:7px;
+	
+}
+
+.postedimage{
+	margin-left:15px;
+	width:350px;
+	height:300px;
+	
+}
+
+
+
+.yourfriends{
+	background-color:#EBF5F5;
+	border:1px solid #37B6FA;
+	border-radius:5px;
+	margin-top:30px;
+	margin-left:1050px;
+	height:530px;
+	width:250px;
+	position:absolute;
+	overflow:scroll;
+	
+}
+#navfriends{
+	background-color:rgb(233,234,234);
+	font-weight:bold;
+	font-size:25px;
+	padding:10px;
+	
+}
+.makefriend{
+	margin:20px 0px 0px 0px;
+	font-size:15px;
+	color:rgb(0,132,180);
+}
+
+.friend{
+margin:20px 0px 0px 0px;
+}
+
+.makefriendimage{
+	
+	height:100px;
+	width:100px;
+}
+.friendimage{
+	width:40px;
+	height:40px;
+}
+.colorchange{
+	background-color:#5f9ea0;
+color:white;
+}
+#cs{
+	background-color:#5f9ea0;
+	border:#5f9ea0;
+	height:150px;
+	width:30px;
+}
+
+.friend:active{
+background-color:#5f9ea0;
+color:white;
+}
+.friend:hover{
+	cursor:pointer;
+}
+
+#chatarea{
+	margin-top:5px ;
+	margin-left:50px;
+}
+
+#chatbutton{
+	margin-left:0px;
+	margin-top:-30px;
+}
+
+.chatcontent{
+	background-color:#EBF5F5;
+	border:1px solid #37B6FA;
+	border-radius:5px;
+	margin-top:30px;
+	margin-left:400px;
+	height:430px;
+	width:700px;
+	position:absolute;
+	font-size:14px;
+	font-weight:bold;
+	overflow:scroll;
+}
+
+.chatbox{
+	background-color:#EBF5F5;
+	border:1px solid #37B6FA;
+	height:100px;
+	width:700px;
+	border-radius:5px;
+	margin-left:400px;
+	margin-top:461px;
+	position:absolute;
+	}
+
+#chattermail{
+	display:none;
+}
+
+.mychat{
+	margin-left:480px;
+	margin-right:10px;
+	padding-left:3px;
+	padding-bottom:1px;
+	border:1px solid white;
+	border-radius:5px;
+	background-color:white;
+	word-wrap: break-word;
+}
+
+.yourchat{
+	margin-left:10px;
+	padding-left:3px;
+	width:220px;
+	padding-bottom:1px;
+	border:1px solid white;
+	border-radius:5px;
+	background-color:white;
+	word-wrap: break-word;
+}
+#chatscroll{
+	overflow:scroll;
+}
+
+
+
+
+
+
+
